@@ -1,0 +1,7 @@
+import requests
+import fake_useragent
+from bs4 import BeautifulSoup
+import snscrape
+import pprint
+Telegram_token = "5976486278:AAHql7K0uYyIUu6wfbSwPvI6J4LUJf_2AjE"
+telegam_channel_id = '-4270015855'
