@@ -1,0 +1,5 @@
+name:daily super bot
+on:
+  push:
+jobs:
+   
