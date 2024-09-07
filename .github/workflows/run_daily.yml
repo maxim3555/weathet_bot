@@ -1,5 +1,9 @@
-name:daily super bot
+name: daily super bot
 on:
-  push:
+    push:
 jobs:
-   
+   Daily-Run:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Checkout code
+         uses: actions/checkout@v4
