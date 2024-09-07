@@ -7,9 +7,5 @@ jobs:
      steps:
        - name: Checkout code
          uses: actions/checkout@v4
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> origin/main
+       - name: Run App
+         run: python app.py
