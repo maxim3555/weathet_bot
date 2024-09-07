@@ -46,7 +46,8 @@ def get_weather():
 
 def send_msg(photo):
 
-    url_req = "https://api.telegram.org/bot" + Telegram_token + "/sendMessage" + "?chat_id=" + telegam_channel_id + "&text=" + photo
+    url_req = "https://api.telegram.org/bot" + Telegram_token + "/sendMessage" + "?chat_id=" + telegam_c
+    hannel_id + "&text=" + photo
     results = requests.get(url_req)
     print(results.json())
 
