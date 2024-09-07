@@ -4,7 +4,7 @@ import os
 import requests_cache
 import pandas as pd
 from retry_requests import retry
-from учимся import Telegram_token,telegam_channel_id
+
 
 
 def get_weather():
