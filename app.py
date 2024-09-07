@@ -5,8 +5,8 @@ import requests_cache
 import pandas as pd
 from retry_requests import retry
 from env import Telegram_token,telegam_channel_id
-Telegram_token = "5976486278:AAHql7K0uYyIUu6wfbSwPvI6J4LUJf_2AjE"
-telegam_channel_id = '-4270015855'
+#Telegram_token = "5976486278:AAHql7K0uYyIUu6wfbSwPvI6J4LUJf_2AjE"
+#telegam_channel_id = '-4270015855'
 def get_weather():
     # Setup the Open-Meteo API client with cache and retry on error
     cache_session = requests_cache.CachedSession('.cache', expire_after=3600)

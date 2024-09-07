@@ -2,8 +2,8 @@ name: daily super bot
 on:
     push:
 env:
-    Telegram_token: "5976486278:AAHql7K0uYyIUu6wfbSwPvI6J4LUJf_2AjE"
-    telegam_channel_id: '-4270015855'
+    Telegram_token: ${{ secrets.TELEGRAM_TOKEN }}
+    telegam_channel_id: ${{ secrets.TELEGAM_CHANNEL_ID }}
 jobs:
    Daily-Run:
      runs-on: ubuntu-latest
